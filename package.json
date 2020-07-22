@@ -11,6 +11,7 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "autoprefixer": "^9.8.5",
+    "axios": "^0.19.2",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
     "html-webpack-plugin": "^4.3.0",
@@ -28,10 +29,8 @@
   "scripts": {
     "build-css": "postcss src/App.scss -o src/tailwind.css",
     "watch-css": "postcss src/App.scss -o src/tailwind.css -w",
-
     "start": "yarn build-css && webpack-dev-server --hot --open",
     "build": "yarn build-css && webpack --config webpack.config.js --mode production"
-
   },
   "devDependencies": {
     "file-loader": "^6.0.0",
