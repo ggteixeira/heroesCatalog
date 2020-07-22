@@ -5,7 +5,8 @@ module.exports = {
     entry: './index.js',
     output: {
         filename: 'bundle.[hash].js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
+        publicPath: '/'
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -27,5 +28,8 @@ module.exports = {
                 test: /\.s?css$/,
                 use: ['style-loader', 'css-loader', 'sass-loader']
             }]
+    },
+    devServer: {
+        historyApiFallback: true,
     }
 }
