@@ -6,12 +6,12 @@
 
 - [ ] React, Redux, React-router, ECMA6+ (BabelJS)
 - [ ] Responsive (FlexBox, CSS Grid or both)
-- [ ] Configure your own webpack
-- [ ] **Do not** use `create-react-app` command (set up the project manually)
+- [x] Configure your own webpack
+- [x] **Do not** use `create-react-app` command (set up the project manually)
 - [ ] Clean and readable code (english-only variable names)
 - [ ] SEO: Semantic HTML
 - [ ] Avoid uneeded renders in order to achieve a good performance
-- [ ] Create a README written in english
+- [x] Create a README written in english
 - [ ] Use BitBucket
 - [ ] Deploy the application (Heroku for example)
 
