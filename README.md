@@ -14,7 +14,7 @@
 - [ ] Avoid uneeded renders in order to achieve a good performance
 - [x] Create a README written in english
 - [ ] Use BitBucket
-- [ ] Deploy the application (Heroku for example)
+- [ ] Deploy the application (Heroku)
 
 ## Recommended
 
@@ -22,3 +22,22 @@
 - [ ] ESlint
 - [ ] Unit tests and integration tests
 - [ ] Flow type
+
+***
+
+## Day 1/6: Manually setting up the project (Tuesday)
+
+- [x] Babel
+- [x] Webpack
+- [x] React, React DOM, React Router, Redux
+- [x] Tailwind (CSS framework)
+
+## Day 2/6: Building all pages and navigation between them (Wednesday)
+
+- [ ] Homepage
+  - [ ] Header
+  - [ ] Footer
+  - [ ] Hamburger menu
+- [ ] Login Screen
+- [ ] Character Screen
+- [ ] About Page
