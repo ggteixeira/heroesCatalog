@@ -11,8 +11,8 @@ import './tailwind.css';
 
 import Header from './Components/Header'
 import Footer from './Components/Footer'
-import About from './Components/About'
-import Catalog from './Components/Catalog'
+import About from './Views/About'
+import Catalog from './Views/Catalog'
 
 function App() {
   return (
