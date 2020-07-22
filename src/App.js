@@ -1,11 +1,18 @@
 import React from 'react';
-import './App.scss'
+// import './App.scss'
+import './tailwind.css';
 
-function App () {
+import Header from './Components/Header'
+import Footer from './Components/Footer'
+
+function App() {
     return (
-        <div className="container">
-        <h1>Hello World, mano!</h1>
-    </div>
+        <div>
+            <Header />
+            <h1>Hello World, mano!</h1>
+
+            <Footer />
+        </div>
 
     )
 }
