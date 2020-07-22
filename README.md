@@ -1,4 +1,4 @@
-# HEROES CATALOG, the heroe's database you were looking for
+# HEROES CATALOG, the heroes' database you were looking for
 
 # Requirements
 
@@ -6,6 +6,7 @@
 
 - [ ] React, Redux, React-router, ECMA6+ (BabelJS)
 - [ ] Responsive (FlexBox, CSS Grid or both)
+  - [x] Responsive (Tailwindcss)
 - [x] Configure your own webpack
 - [x] **Do not** use `create-react-app` command (set up the project manually)
 - [ ] Clean and readable code (english-only variable names)
