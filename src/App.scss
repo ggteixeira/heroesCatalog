@@ -1,14 +1,15 @@
-$default-background: #D3D3D3;
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
 
 body {
     height: 100%;
-    background-color: $default-background;
 }
 
-.container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    width: 100%;
+.app-header {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding: 0.4rem;
 }
