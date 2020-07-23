@@ -34,10 +34,13 @@
 
 ## Day 2/6: Building all pages and navigation between them (Wednesday)
 
-- [ ] Homepage
-  - [ ] Header
-  - [ ] Footer
-  - [ ] Hamburger menu
+- [x] Homepage/Character Screen
+  - [x] Header
+  - [x] Footer
 - [ ] Login Screen
-- [ ] Character Screen
-- [ ] About Page
+- [x] About Page
+
+**PLUS**: I've managed to sucessfully fetch Marvel's API! It shortens one of the next steps, that is displaying all the date gathered into the main page.
+
+## Day 3/6
+
