@@ -44,3 +44,17 @@
 
 ## Day 3/6
 
+## Day 4/6
+
+## Day 5/6
+
+## Day 6/6
+
+
+
+***
+
+## Bibliografia e Referências
+
+* https://www.youtube.com/watch?v=iXwD38o97uI
+* 
