@@ -4,8 +4,8 @@
 
 ## Must-haves
 
-- [ ] React, Redux, React-router, ECMA6+ (BabelJS)
-- [ ] Responsive (FlexBox, CSS Grid or both)
+- [x] React, Redux, React-router, ECMA6+ (BabelJS)
+- [x] Responsive (FlexBox, CSS Grid or both)
   - [x] Responsive (Tailwindcss)
 - [x] Configure your own webpack
 - [x] **Do not** use `create-react-app` command (set up the project manually)
