@@ -13,17 +13,22 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import About from './Views/About'
 import Catalog from './Views/Catalog'
+import Details from './Views/Details'
 
 function App() {
   return (
     <div>
       <Router>
         <Header />
-        <div className="p-3">
+        <div className="p-5">
           <Switch>
 
             <Route exact path="/">
               <Catalog />
+            </Route>
+          
+            <Route path="/details"> {/* TODO: add an id */}
+              <Details />
             </Route>
 
             <Route path="/about">
