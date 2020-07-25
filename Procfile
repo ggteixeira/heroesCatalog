@@ -1,1 +1,1 @@
-web: yarn build-css && webpack --config webpack.config.js --mode production
+web: yarn build-css && webpack-dev-server --hot --open
