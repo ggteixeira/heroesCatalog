@@ -19,10 +19,10 @@ function App() {
     <div>
       <Router>
         <Header />
-        <div className="p-3 bg-gray-500">
+        <div className="p-3">
           <Switch>
 
-          <Route exact path="/">
+            <Route exact path="/">
               <Catalog />
             </Route>
 
@@ -32,9 +32,11 @@ function App() {
 
           </Switch>
         </div>
-      <Footer />
       </Router>
+      <Footer />
     </div>
+
+
 
   )
 }
