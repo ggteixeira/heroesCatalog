@@ -1,1 +1,1 @@
-web: yarn build-css && webpack-dev-server --hot --open
+web: yarn build
