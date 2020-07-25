@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // import axios from 'axios'
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 
 // APIs keys
 const timeStamp = '1595465427'
@@ -9,36 +9,44 @@ const md5 = '33ffba8f09b558e72e11ab67e2f80ba4'
 
 function Catalog() {
   const [characterInfos, setCharacterInfos] = useState([])
-  
+
   // console.log(`https://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}&orderBy=name&limit=100`)
 
   // make a request
   useEffect(() => {
-    fetch(`https://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}&orderBy=name&limit=10`)
-    .then(response => response.json())
-    .then(data => data.data.results)
-    .then(data => setCharacterInfos(data))
-    
+    fetch(`https://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}&orderBy=name&limit=5`)
+      .then(response => response.json())
+      .then(data => data.data.results)
+      .then(data => setCharacterInfos(data))
+
   }, [])
   return (
-    <div className="flex mb-4">
-      <ul className="bg-gray-400">
-        {console.log(characterInfos)}
+    <div className="w-full flex space-x-2 justify-start">
       {characterInfos.map(hero => (
-        <li className="p-1">
-          <h3>{hero.name}</h3>
-          <img src={hero.thumbnail.path + '/portrait_medium.jpg'}></img>
-          <p>Description: {hero.description}</p>
-          <p>Comics available: {hero.comics.available}</p>
+        <div 
+        className="bg-gray-500 max-w-sm rounded overflow-hidden shadow-lg"
+        >
+          
 
-        </li>
+
+          <img class="h-48" src={hero.thumbnail.path + '/portrait_xlarge.jpg'} alt="Sunset in the mountains"></img>
+          
+            <div class="font-bold text-sm m-4">
+          
+              <p className="text-center">{hero.name}</p>
+              
+          
+            </div>
+            <p className="text-center hover:bg-gray-600 border border-gray-400 px-4 py-2 text-gray-800"><Link to="/details">Details</Link></p>
+          </div>
+
       ))}
-      </ul>
     </div>
   )
 }
 
 // className="flex justify-between flex-wrap"
+{/* <img className="w-full" src={hero.thumbnail.path + '/portrait_medium.jpg'}></img> */}
 
 export default Catalog
 
