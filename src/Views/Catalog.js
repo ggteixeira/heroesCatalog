@@ -14,17 +14,17 @@ function Catalog() {
 
   // make a request
   useEffect(() => {
-    fetch(`https://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}&orderBy=name&limit=5`)
+    fetch(`https://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}&orderBy=name&limit=10`)
       .then(response => response.json())
       .then(data => data.data.results)
       .then(data => setCharacterInfos(data))
 
   }, [])
   return (
-    <div className="w-full flex space-x-2 justify-start">
+    <div className="w-full flex flex-wrap space-x-2 justify-start">
       {characterInfos.map(hero => (
         <div 
-        className="bg-gray-500 max-w-sm rounded overflow-hidden shadow-lg"
+        className="bg-gray-500 max-w-sm m-3 rounded overflow-hidden shadow-lg"
         >
           
 
