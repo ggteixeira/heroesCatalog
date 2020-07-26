@@ -44,7 +44,7 @@ With both `npm`  and `yarn`installed, these commands will be useful:
 - [ ] SEO: Semantic HTML
 - [ ] Avoid uneeded renders in order to achieve a good performance
 - [x] Create a README written in english
-- [ ] Use BitBucket
+- [x] Use BitBucket
 - [ ] Deploy the application (Heroku)
 
 ## Recommended
