@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function Header() {
     return (
-        <header className="flex items-center justify-between white-printi">
+        <header className="flex items-center justify-between bg-gray-printi">
             {/* border-b font-bold p-3 */}
             {/* Left side */}
             <div className="p-3 font-bold">
