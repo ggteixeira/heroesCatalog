@@ -23,17 +23,11 @@ function App() {
         <div className="p-5">
           <Switch>
 
-            <Route exact path="/">
-              <Catalog />
-            </Route>
+            <Route exact path="/" component={Catalog}/>
           
-            <Route path="/details"> {/* TODO: add an id */}
-              <Details />
-            </Route>
+            <Route path="/details" component={Details}/>
 
-            <Route path="/about">
-              <About />
-            </Route>
+            <Route path="/about" component={About}/>
 
           </Switch>
         </div>
