@@ -50,7 +50,7 @@ With both `npm`  and `yarn`installed, these commands will be useful:
 ## Recommended
 
 - [ ] Styled-components or emotion
-- [ ] ESlint
+- [x] ESlint
 - [ ] Unit tests and integration tests
 - [ ] Flow type
 
