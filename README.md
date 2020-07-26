@@ -104,10 +104,11 @@ I have to be **sincerely clear** about something: I've received a little help fr
 
 ## Day 6/6: (Sunday)
 
-- [ ] Colocar todas as referências no README
-- [ ] Colocar o logo da Marvel no README
+- [x] Add all references into the README
+- [x] Add Marvel logo into the README
 - [ ] Give to the user the choice of loading a number of heroes (since pagination isn't possible within the remaining time)
 - [ ] **Add a screenshot** of the main page in the README
+- [ ] **body background color!**
 
 * I've got another **error 429** at 2pm, so I started to do some other things.
 
@@ -177,6 +178,4 @@ I have to be **sincerely clear** about something: I've received a little help fr
 
 ### Books/Chapters/Articles
 
-* Eloquent JavaScript (Book)
-
-* 
+* [Eloquent JavaScript](https://eloquentjavascript.net/) (Marijn Haverbeke)
