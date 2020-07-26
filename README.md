@@ -1,6 +1,16 @@
 # HEROES CATALOG, the heroes' database you were looking for
 
-# Requirements
+![](https://github.com/guiemi/Heroes_Catalog/blob/master/media/marvel-logo.svg)
+
+# Resume
+
+
+
+# Installation
+
+# How it works
+
+# What I've learned / What I've done on each day
 
 ## Must-haves
 
@@ -42,13 +52,15 @@
 
 **PLUS**: I've managed to sucessfully fetch Marvel's API! It shortens one of the next steps, that is displaying all the date gathered into the main page.
 
-## Day 3/6
+## Day 3/6: (Thursday)
 
-## Day 4/6
+* Today I took a programming logic test that
 
-## Day 5/6
+## Day 4/6: (Friday)
 
-- [ ] I've managed to display all the fetched content into the main page, then I created a separated view named Details to store all the details about the selected character
+## Day 5/6: (Saturday)
+
+- [x] I've managed to display all the fetched content into the main page, then I created a separated view named Details to store all the details about the selected character
   * Initially, I've displayed all details in the main page (names, descriptions, thumbnails, number of comics), but then I figured out that it there'd be no reason for a details page if all the details were there, so I sticked to the provided checklist.
 - [ ] I tried to deploy the app in **Heroku** as well, but couldn't accomplish it yet unfortunately. Minor issues to  be solved later.
 
@@ -58,7 +70,7 @@
 - [ ] Colocar o logo da Marvel no README
 - [ ] Give to the user the choice of loading a number of heroes (since pagination isn't possible within the remaining time)
 
-
+* I've got another **error 429** at 2pm, so I started to do some other things.
 
 ***
 
