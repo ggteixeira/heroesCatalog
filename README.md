@@ -1,8 +1,15 @@
-# HEROES CATALOG, the heroes' database you were looking for
+# HEROES CATALOG
+
+## The heroes' database you were looking for
+
+[![GitHub issues](https://img.shields.io/github/issues/guiemi/heroesCatalog)](https://github.com/guiemi/heroesCatalog/issues) [![GitHub forks](https://img.shields.io/github/forks/guiemi/heroesCatalog)](https://github.com/guiemi/heroesCatalog/network) [![GitHub stars](https://img.shields.io/github/stars/guiemi/heroesCatalog)](https://github.com/guiemi/heroesCatalog/stargazers) [![GitHub license](https://img.shields.io/github/license/guiemi/heroesCatalog)](https://github.com/guiemi/heroesCatalog)
+
 
 ![](https://github.com/guiemi/Heroes_Catalog/blob/master/media/marvel-logo.svg)
 
 # Resume
+
+Heroes Catalog is a React application that fetches data directly from [Marvel API](https://developer.marvel.com/) and displays some interesting basic infos about characters, such like name, description, image, and the number of comics belonging to them.
 
 
 
