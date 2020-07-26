@@ -14,6 +14,7 @@ import Footer from './Components/Footer'
 import About from './Views/About'
 import Catalog from './Views/Catalog'
 import Details from './Views/Details'
+import Login from './Views/Login'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Header />
         <div className="p-5">
           <Switch>
+            <Route path="/login" component={Login}/>
 
             <Route exact path="/" component={Catalog}/>
           
