@@ -29,9 +29,9 @@ function Catalog() {
           
 
 
-          <img class="h-48" src={hero.thumbnail.path + '/portrait_xlarge.jpg'} alt="Sunset in the mountains"></img>
+          <img className="h-48 w-full" src={hero.thumbnail.path + '/standard_xlarge.jpg'} alt="Sunset in the mountains"></img>
           
-            <div class="font-bold text-sm m-4">
+            <div class="font-bold text-sm m-2">
           
               <p className="text-center">{hero.name}</p>
               
