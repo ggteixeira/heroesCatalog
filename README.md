@@ -42,7 +42,7 @@ With both `npm`  and `yarn`installed, these commands will be useful:
 - [ ] SEO: Semantic HTML
 - [ ] Avoid uneeded renders in order to achieve a good performance
 - [x] Create a README written in english
-- [ ] Use BitBucket
+- [x] Use BitBucket
 - [ ] Deploy the application (Heroku)
 
 ## Recommended
@@ -104,7 +104,6 @@ I've managed to ditch Axios in order to just use fetch. I figured out what wrong
 - [x] Add Marvel logo into the README
 - [ ] Give to the user the choice of loading a number of heroes (since pagination isn't possible within the remaining time)
 - [ ] **Add a screenshot** of the main page in the README
-- [ ] **body background color!**
 
 * I've got another **error 429** at 2pm, so I started to do some other things.
 
