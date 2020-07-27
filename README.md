@@ -21,7 +21,7 @@ Afterwards you should install Yarn (package manager). Follow [their installation
 
 With both `npm`  and `yarn`installed, these commands will be useful:
 
-* `npm install`: Install all dependencies needed to run the app
+* `npm install` and `yarn install`: Install all dependencies needed to run the app
 * `yarn start`: Start the local server
   * To access the local server, just visit `http://localhost:8080/` to see **Heroes Catalog** running locally. It has **hot reload** activated by default, so it refreshes every time a change is made in the code. Be aware of that, and enjoy.
 
