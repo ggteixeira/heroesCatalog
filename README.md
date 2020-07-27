@@ -25,8 +25,6 @@ With both `npm`  and `yarn`installed, these commands will be useful:
 * `yarn start`: Start the local server
   * To access the local server, just visit `http://localhost:8080/` to see **Heroes Catalog** running locally. It has **hot reload** activated by default, so it refreshes every time a change is made in the code. Be aware of that, and enjoy.
 
-# How it works
-
 # What I've learned / What I've done on each day
 
 ## Must-haves
@@ -44,7 +42,7 @@ With both `npm`  and `yarn`installed, these commands will be useful:
 - [ ] SEO: Semantic HTML
 - [ ] Avoid uneeded renders in order to achieve a good performance
 - [x] Create a README written in english
-- [x] Use BitBucket
+- [ ] Use BitBucket
 - [ ] Deploy the application (Heroku)
 
 ## Recommended
@@ -76,8 +74,6 @@ Today I learned how to manually set up the React project. It wasn't easy, but I 
 * [ ] Login Screen
 * [x] About Page
 
-
-
 **PLUS**: I've managed to sucessfully fetch Marvel's API! It shortens one of the next steps, that is displaying all the data gathered into the main page. :tada: 
 
 ## Day 3/6 (Thursday)
@@ -96,11 +92,11 @@ I've managed to display all the fetched content into the main page! :tada:
 
 The next step is to show details about each character based on their id.
 
-I have to be **sincerely clear** about something: I've received a little help from [a friend](https://github.com/vitorprado/). Although is **definetely** not like he's coded something instead of me. All the code was ready and done by me; he just helped me to figure out what's wrong was going on with Axios, and the way it fetches and treats data. 100% of the job has done by me, he **literally** just helped me with switching from Axios to Fetch, [as this three lines shows](https://github.com/guiemi/heroesCatalog/commit/8e1f4671003e41cf693e96d4d322485a7a08e4be?diff=split#diff-0a237517b01d7169dc1d20d2ecd0570bR18). 
+I've managed to ditch Axios in order to just use fetch. I figured out what wrong was going on with Axios calls and the way it fetches and treats data. In the same API call, along with character id, the API brings names, descriptions, all sorts of thumbnails sizes, comics related, and so on. Success! :tada:
 
-* Initially, I've displayed all details in the main page (names, descriptions, thumbnails, number of comics), but then I figured out that it there'd be no reason for a details page if all the details were there, so I sticked to the provided checklist.
+* Initially, I've displayed all details in the main page (names, descriptions, thumbnails, number of comics), but then I figured out that it there'd be no reason for a details page if all the details were there, so I sticked to the original provided checklist.
 
-- [ ] I tried to deploy the app in **Heroku** as well, but couldn't accomplish it yet unfortunately. Minor issues to  be solved later.
+* I tried to deploy the app in **Heroku** as well, but couldn't accomplish it yet unfortunately. Minor issues to  be solved later.
 
 ## Day 6/6: (Sunday)
 
@@ -111,6 +107,10 @@ I have to be **sincerely clear** about something: I've received a little help fr
 - [ ] **body background color!**
 
 * I've got another **error 429** at 2pm, so I started to do some other things.
+
+I created a login page, but I couldn't make it work yet. I tried to mirror the repository from GitHub to BitBucket, but I couldn't. It seems like this feature is harder to react than in the last time I did it (~2 years ago).
+
+Since the **error 429** impedes me from improving the main features of this application, at least I want to display all the detailed information within each card in the main page. I will be able to do this as soon as I can fetch data again.
 
 ***
 
