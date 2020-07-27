@@ -7,7 +7,7 @@
 
 ![](https://github.com/guiemi/Heroes_Catalog/blob/master/media/marvel-logo.svg)
 
-# Resume
+# Overview
 
 Heroes Catalog is a React application that fetches data directly from [Marvel API](https://developer.marvel.com/) and displays some interesting basic infos about characters, such like name, description, image, and the number of comics belonging to them. You can either access it online through Heroku or follow the next topic, installation.
 
