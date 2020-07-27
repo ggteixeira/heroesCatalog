@@ -5,8 +5,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
-// import './App.scss'
 import './tailwind.css';
 
 import Header from './Components/Header'
@@ -23,22 +21,19 @@ function App() {
         <Header />
         <div className="p-5">
           <Switch>
-            <Route path="/login" component={Login}/>
+            <Route path="/login" component={Login} />
 
-            <Route exact path="/" component={Catalog}/>
-          
-            <Route path="/details" component={Details}/>
+            <Route exact path="/" component={Catalog} />
 
-            <Route path="/about" component={About}/>
+            <Route path="/details" component={Details} />
+
+            <Route path="/about" component={About} />
 
           </Switch>
         </div>
       </Router>
       <Footer />
     </div>
-
-
-
   )
 }
 
