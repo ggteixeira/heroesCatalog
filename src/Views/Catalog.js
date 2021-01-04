@@ -13,10 +13,10 @@ function Catalog() {
   useEffect(() => {
     fetch(`https://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}&orderBy=name&limit=10`)
       .then(response => response.json())
-      .then(data => data.data.results)
+      .then(data => data.results)
       .then(data => setCharacterInfos(data))
 
-  }, [characterInfos])
+  }, [])
 
   return (
     <div className="w-full flex flex-wrap space-x-2 justify-start">
